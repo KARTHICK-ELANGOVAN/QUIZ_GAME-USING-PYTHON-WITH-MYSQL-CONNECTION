@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(host = "127.0.0.1",user="arun",password="karthi@123",auth_plugin ="mysql_native_password",port="3306",database="newdb")
+mydb = mysql.connector.connect(host = "127.0.0.1",user="arun",password="####",auth_plugin ="mysql_native_password",port="3306",database="newdb")
 
 mycursor = mydb.cursor()
 mycursor.execute("select * from quiz_questions")
